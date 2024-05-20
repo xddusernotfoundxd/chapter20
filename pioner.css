@@ -1,0 +1,451 @@
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 325px;
+	max-width: 1440px;
+	overflow-x: hidden;
+	height: auto;
+	margin: auto;
+	background-size: contain;
+}
+.navbar{
+	background-image: url(kapli.jpg);
+	min-height: 800px;
+	width: 100%;
+	display: grid;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navbar .raspol{
+	display: grid;
+	grid-template-columns: 95% 5%;
+	grid-column-gap: 20px;
+}
+.navbarmenu{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+}
+.navbarmenu li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.navbarmenu li a{
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	font-family: Roboto;
+}
+.wrapper1{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+	justify-content: space-between;
+	height: 72px;
+	border-radius: 8px;
+}
+.wrapper1 img{
+	width: 100%;
+	height: 52px;
+	margin-left: 10px;
+}
+.wrapper2{
+	height: 72px;
+	width: 72px;
+	border-radius: 8px;
+	margin-top: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.navbarmenu .borderrig{
+	color: lightgrey;
+}
+.cart{
+	color: black;
+	font-size: 20px;
+}
+.clean .h1{
+	font-size: 71px;
+	flex-wrap: 700;
+	width: 500px;
+	line-height: 71px;
+}
+.clean{
+	width: 700px;
+	margin-top: 150px;
+
+}
+.clean p{
+	font-size: 23px;
+	margin-top: 35px;
+	margin-bottom: 40px;
+	line-height: 27px;
+}
+.clean a{
+	font-size: 15px;
+	padding: 5px 60px;
+	background-color: #FF451C;
+	color: white;
+	text-decoration: none;
+	border-radius: 9px;
+	font-weight: 400;
+}
+.image1{
+	min-height: 800px;
+	grid-row: 1/3;
+	grid-column: 1/1;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.texto{
+	height: 400px;
+}
+.texto h4{
+	font-size: 37px;
+	margin-top: 48px;
+	font-weight: 700;
+	line-height: 48px;
+	margin-left: 35px;
+}
+.texto p{
+	font-size: 17px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	line-height: 21.6px;
+	margin-left: 35px;
+}
+.texto a{
+	font-size: 15px;
+	margin-left: 35px;
+	line-height: 16px;
+	font-size: 15px;
+	padding: 5px 60px;
+	background-color: #FF451C;
+	color: white;
+	text-decoration: none;
+	border-radius: 9px;
+	font-weight: 400;
+}
+.image2{
+	background-size: cover;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.wrraper{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.back1{
+	background-color: #c6dae7;
+	height: 324px;
+}
+.back1 h4{
+	margin-top: 48px;
+	margin-left: 55px;
+	line-height: 48px;
+	font-weight: 700;
+	font-size: 36px;
+}
+.back1 p{
+	margin-top: 20px;
+	margin-bottom: 35px;
+	margin-left: 55px;
+}
+.back1 a{
+	margin-left: 55px;
+	font-size: 15px;
+	line-height: 16px;
+	font-size: 15px;
+	padding: 5px 60px;
+	background-color: #FF451C;
+	color: white;
+	text-decoration: none;
+	border-radius: 9px;
+	font-weight: 400;
+}
+.back2{
+	background-color: #c6dae7;
+	height: 324px;
+}
+.spans{
+	margin-left: 35px;
+	margin-top: 48px;
+	margin-right: 35px;
+}
+.back2 .plus{
+	float: right;
+}
+.back2 .plus a{
+	color: black;
+	transition: 0.9s;
+}
+.back2 .plus a:hover{
+	opacity: 0.3;
+}
+.back2 span{
+	font-size: 21px;
+}
+.back2 hr{
+	opacity: 0.1;
+}
+.wrapp{
+	text-align: center;
+	margin-top: 128px;
+}
+.wrapp p{
+	font-family: arial;
+}
+.wrapp .h55{
+	font-size: 43px;
+	color: #202020;
+}
+.rating{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+}
+.rating li{
+	display: inline-block;
+	padding: 2px;
+	color: #202020;
+}
+.sing{
+	margin-left: 35px;
+	margin-top: 48px;
+	margin-right: 50px;
+}
+.mnoga{
+	height: 420px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.sign{
+	background-color: #c6dae7;
+}
+.grind{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 130px;
+}
+.sing input{
+	width: 100%;
+	height: 54px;
+	padding-left: 15px;
+	position: relative;
+	display: block;
+}
+label{
+	float: right;
+	margin-top: -34px;
+	padding-right: 15px;
+}
+.sing h4{
+	font-size: 37px;
+	line-height: 48px;
+	font-weight: 700;
+}
+.sing p{
+	font-size: 17px;
+	line-height: 21px;
+}
+.mans{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.man{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.man2{
+	background-color: #E8DCCD;
+}
+.our{
+	margin-left: 35px;
+	margin-top: 48px;
+	height: 700px;
+	margin-right: 50px;
+}
+.our h4{
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 48px;
+	margin-bottom: 20px;
+}
+.our h6{
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 27.84px;
+}
+.our p{
+	font-size: 16px;
+	margin-top: 15px;
+}
+.our .pipa{
+	margin-bottom: 45px;
+}
+.our a{
+	font-size: 15px;
+	line-height: 16px;
+	font-size: 15px;
+	padding: 5px 60px;
+	background-color: #FF451C;
+	color: white;
+	text-decoration: none;
+	border-radius: 9px;
+	font-weight: 400;
+}
+.fotas{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+.fotas div{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 360px;
+}
+.ulki ul{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+}
+.ulki1 ul{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+}
+.ulki2 ul{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+}
+.ulki3 ul{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+}
+.footer{
+	background-color: #9BB8D3;
+	height: 308px;
+}
+.footer .container{
+	padding-top: 72px;
+}
+.warap{
+	display: grid;
+	grid-template-columns: 1fr  1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.logos{
+	height: 20px;
+}
+.ulki ul li{
+	line-height: 21.6px;
+	padding: 5px;
+}
+.ulki1 ul li{
+	line-height: 21.6px;
+	padding: 5px;
+}
+.ulki2 ul li{
+	line-height: 21.6px;
+	padding: 5px;
+}
+.ulki3 ul li{
+	line-height: 21.6px;
+	padding: 5px;
+}
+.cha p{
+	font-size: 12px;
+	color: #00000080;
+}
+.ulki ul .pag{
+	margin-top: -5px;
+	margin-bottom: 10px;
+	color: #00000080;
+	font-size: 15px;
+}
+.ulki1 ul .pag{
+	margin-top: -5px;
+	margin-bottom: 10px;
+	color: #00000080;
+	font-size: 15px;
+}
+.ulki2 ul .pag{
+	margin-top: -5px;
+	margin-bottom: 10px;
+	color: #00000080;
+	font-size: 15px;
+}
+.ulki3 ul .pag{
+	margin-top: -5px;
+	margin-bottom: 10px;
+	color: #00000080;
+	font-size: 15px;
+}
+.ulki ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+.ulki1 ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+.ulki2 ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+.ulki3 ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+.emael{
+	display: block;
+	position: relative;
+	margin-left: 50px;
+}
+.emael input{
+	height: 44px;
+	display: block;
+	position: relative;
+	padding-left: 15px;
+	border-radius: 8px;
+}
+.labul{
+	float: right;
+	position: absolute;
+	top: 86px;
+}
+.emael .pppp{
+	font-size: 10px;
+}
+.emael .pap{
+	color: #00000080;
+}
+.emael a{
+	font-size: 15px;
+	padding: 2px 60px;
+	background-color: #FF451C;
+	color: white;
+	text-decoration: none;
+	border-radius: 9px;
+	font-weight: 400;
+}
